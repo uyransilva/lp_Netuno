@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1A7FBD;
+    
 }
 
 /* HEADER */
@@ -14,6 +14,7 @@ header{
     align-items: center;
     justify-content: space-around;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #1A7FBD;
 }
 #btn-ps{
     padding: 15px;
@@ -38,9 +39,91 @@ header{
     width: 831px;
     height: 859px;
 }
-
+#persons-1{
+    margin-left: -180px;
+}
 #blank-img{
     width: 456px;
     height: 457px;
     margin-top: 278px;
+    height: 456px;
+
+}
+
+#register-form{
+    background-color: #ffffff;
+    width: 405px;
+    height: 729px;
+    border-radius: 12px;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 87px ;
+}
+#form-title{
+    margin: 31px 0px 14px 39px;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #CECECE;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#fillout{
+    color: #1A7FBD;
+    background-color: #ffffff;
+    margin-left: 39px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.register{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 16px;
+    justify-content: space-around;
+    padding-left: 23px;
+    height: 40px;
+    width: 356px;
+    border-radius: 6px;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+#name{
+    background-image: url("/assets/user.png");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left;
+    background-position-x: 3px;
+    background-color: #FBFBFB;
+    
+}
+
+#email{
+    background-image: url("/assets/mail.png");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left;
+    background-position-x: 3px;
+    background-color: #FBFBFB;
+}
+
+#state{
+    background-image: url("/assets/state.png");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: left;
+    background-position-x: 3px;
+    background-color: #FBFBFB;
+}
+
+.checkboxes{
+    background-color: #1A7FBD;
+    width: 405px;
+    height: 170px;
 }
