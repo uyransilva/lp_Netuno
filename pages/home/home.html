@@ -32,22 +32,68 @@
                 <form id="register-form" action="register">
                     <h2 id="form-title">Formulário de Cadastro</h2>
                     <p id="fillout">Preencha seus dados</p>
-                    <div>
-                        <input class="register" id="name" type="text" placeholder="Nome completo *">
+                    <div id="register-fields">
+                        <input class="register-input" id="name" type="text" placeholder="Nome completo *">
                         <br><br><br>
-                        <input class="register" id="email" type="email" placeholder="E-mail *">
+                        <input class="register-input" id="email" type="email" placeholder="E-mail *">
                         <br><br><br>
-                        <input name="state" class="register" id="state" list="state" placeholder="Estado *">
-                        <br><br><br><br>
+                        <input name="state" class="register-input" id="state" list="state" placeholder="Estado *">
                     </div>
                     <div class="checkboxes">
                         <h3>Conhecimento em programação</h3>
-
+                        <input type="checkbox">
+                        <label for="HTML">HTML</label>
+                        <input type="checkbox">
+                        <label for="CSS">CSS</label>
+                        <input type="checkbox">
+                        <label for="JavaScript">JavaScript</label>
+                        <input type="checkbox">
+                        <label for="PHP">PHP</label>
+                        <input type="checkbox">
+                        <label for=".NET">.NET</label>
+                        <input type="checkbox">
+                        <label for="Vue.JS">Vue.JS</label>
+                        <input type="checkbox">
+                        <label for="">ReactJS</label>
+                        <input type="checkbox">
+                        <label for="">React Native</label>
+                        <input type="checkbox">
+                        <label for="">Node</label>
+                        <input type="checkbox">
+                        <label for="">Python</label>
+                        <input type="checkbox">
+                        <label for="">Flutter</label>
+                        <input type="checkbox">
+                        <label for="">Outras</label>
+                    </div>
+                    <div id="question">
+                        <h3>Já trabalhou com desenvolvimento?</h3>
+                        <input type="checkbox" name="" id="">
+                        <label for="no">Não</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="yes">Sim</label>
+                    </div>
+                    <div id="send">
+                        <button type="submit">Enviar</button>
+                        <div id="send-text"><p>Ao clicar em enviar, você concorda com 
+                            todos os termos de uso de dados descritos em 
+                            <b>política de privacidade.</b></p></div>
                     </div>
                 </form>
-
             </div>
-            <img id="blank-img" src="../../assets/blank.svg" alt="">
+        </section>
+        <section id="second-section">
+            <div>
+                <img id="dev-img" src="/assets/dev.png" alt="Janelas de navegação">
+            </div>
+            <div id="sec-section-text">
+                <h1>O Projeto</h1>
+                <p>
+                    Com o “novo normal” causado pela pandemia dos últimos anos, mais empresas no mundo todo têm aberto oportunidades no modelo Home Office.
+                    Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países. <br><br>
+                    <h4>O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.</h4>
+                </p>
+            </div>
         </section>
     </div>
 </body>
