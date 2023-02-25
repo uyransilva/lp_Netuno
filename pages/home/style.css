@@ -55,9 +55,8 @@ header{
 }
 #first-section form{
     background-color: #ffffff;
-    outline: 1px solid #ffffff;
-    outline-offset: 9px;
-    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    /* outline: 1px solid #ffffff; */
+    /* outline-offset: 9px; */
 }
 
 #register-form{
@@ -68,6 +67,7 @@ header{
     position: absolute;
     margin-left: -190px;
     margin-top: 87px ;
+    padding: 10px;
 }
 #form-title{
     margin: 31px 0px 14px 39px;
@@ -105,6 +105,8 @@ header{
     height: 40px;
     width: 356px;
     border-radius: 6px;
+    border-color: #CECECE;
+    box-shadow: none;
     position: absolute;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -141,11 +143,37 @@ header{
     background-color: #1A7FBD;
     width: 405px;
     height: 170px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .checkboxes input{
     background-color:#1A7FBD;
     border: 1px solid #ffffff;
     border-radius: 25px;
+    outline: 1px solid #ffffff;
+    outline-offset: 1px;
+    
+}
+#selections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#selections label{
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#selections input{
+    margin-left: 5px;
+    margin-top: 10px;
+    align-items: center;
+    
 }
 
 #question{
@@ -227,3 +255,10 @@ header{
     color: #A4DCFF;
     margin-bottom: 20px;
 }
+
+
+/* THIRD SECTION */
+.third-section{
+    display: flex;
+}
+
