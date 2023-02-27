@@ -64,6 +64,7 @@ body{
 }
 
 /* SECTION 2 - FORM */
+
 .second-section{
     display: flex;
     flex-direction: row;
@@ -83,6 +84,16 @@ body{
     min-width: 405px;
     border-radius: 12px;
     margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+}
+.fundo-form{
+    z-index: 2;
+    display: block;
+    width: 425px;
+    margin: -8px;
+    position: absolute;
+    
 }
 form h3,h4{
     margin-left: 39px;
